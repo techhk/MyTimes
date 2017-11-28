@@ -1,3 +1,4 @@
+/*Header*/
 header{
   display: flex;
   font-family: Verdana;
@@ -25,4 +26,21 @@ header nav span{
 }
 nav a{
     color: black;
+}
+/*content*/
+.content{
+  display:flex;
+  justify-content: space-between;
+}
+.content .leftcontent{
+  display: flex;
+  width:630px;
+}
+.content .centercontent{
+  display: flex;
+  width:300px;
+}
+.content .rightcontent{
+  display: flex;
+  width:240px;
 }
