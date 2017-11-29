@@ -28,19 +28,29 @@ nav a{
     color: black;
 }
 /*content*/
-.content{
-  display:flex;
+.con{
+  display: flex;
+  width:1250px;
+  margin: 20px;
+  border: 1px solid black;
   justify-content: space-between;
 }
-.content .leftcontent{
+.con .lcon{
   display: flex;
   width:630px;
+  flex-direction: column;
+  border: 1px solid black;
 }
-.content .centercontent{
+.con .ccon{
   display: flex;
   width:300px;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: 1px solid black;
 }
-.content .rightcontent{
+.con .rcon{
   display: flex;
   width:240px;
+  border: 1px solid black;
 }
