@@ -31,45 +31,65 @@ nav a{
 .con{
   display: flex;
   width:1300px;
-  margin: 10px;
-  border: 1px solid black;
+  margin-top: 10px;
   justify-content: space-between;
-  padding: 10px;
+  margin-bottom: 40px;
 }
-.lcon{
+.lcon,#main-story{
   display: flex;
   width:630px;
   flex-direction: column;
-  border: 1px solid black;
+  justify-content:flex-start;
 }
 .ccon{
   display: flex;
   width:300px;
   flex-direction: column;
-  padding-left: 30px;
-  padding-right: 30px;
 }
 .rcon{
   display: flex;
   width:240px;
-  border: 1px solid black;
 }
 .story{
-  display:flex;
-  border: medium solid black;
+  display:inline-flex;
+  flex-direction: column;
   font-family: Georgia;
   font-size: 17px;
   color: black;
+  width:300px;
+}
+.lcon-stories{
+  display:flex;
+  justify-content:space-between;
+    flex-wrap: wrap;
 }
 .image{
-  display: flex;
-  flex-direction:column;
+  display: inline-flex;
+  flex-direction: column;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
   text-align: center;
   height: 300px;
+}
+.newsbites{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.newsbites h2{
+  font-size: 16px;
+  font-weight: bold;
+}
+.newscontent li{
+  display:flex;
+  padding: 11px 20px;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  border-bottom: 1px black solid;
 }
 #image1{
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
@@ -89,4 +109,46 @@ nav a{
 #image5{
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-news-bite.png");
   height: 200px;
+}
+#image2{
+  width: 300px;
+}
+#image3{
+  width:300px;
+}
+/*footer*/
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  height:300px;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+}
+footer nav span {
+	display: inline-block;
+	padding: 20px 10px;
+	text-decoration: underline;
+}
+.title {
+	font-family: Georgia;
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+	padding-right: 25px;
+	border-right: 2px solid white;
+}
+footer nav {
+	display: inline-block;
+	padding-left: 25px;
+}
+
+.copyright {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
 }
